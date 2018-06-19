@@ -15,9 +15,10 @@ function linkList() {
     // 初始化第一个元素
     let head = null;
 
+    // 尾添加
     this.append = function(val) { // 向链表尾部添加一个新的项
-        let node = new Node(val),
-                        current;
+        let node = new Node(val);
+        let current; // current相当于指针，之后从头结点开始移动
         
         if(head === null) { // 链表中的第一个节点
             head = node;
@@ -32,6 +33,36 @@ function linkList() {
         }
 
         length++; // 更新链表长度
+    };
+
+    // 插入
+    this.insert = function(pos, val) {
+        // 判断是否越界
+        if(pos >= 0 && pos <= length) {
+            let node = new Node(val); // 要插入的节点
+            let current = head; // 头节点
+            let previous; // 要插入节点的前驱节点
+            let index = 0;
+            
+            if(pos === 0) {
+                // pos===0时，直接将头结点
+                node.next = current;
+                head = node;
+            } else {
+                // 循环链表，找到正确位置，循环完毕，previous和current分别是被添加节点的前驱节点和后继节点
+                while(index++ < pos) {
+                    previous = current;
+                    current = current.next;
+                }
+                node.next = current;
+                previous.next = node;
+            }
+            // 更新长度
+            length++;
+            return true;
+        } else {
+            return false;
+        }
     };
 
     this.print = function() {
