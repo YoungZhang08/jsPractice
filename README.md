@@ -5,5 +5,6 @@
 #### 4. [继承](https://github.com/YoungZhang08/jsPractice/blob/master/prototype.js)
 #### 5. [js实现链表](https://github.com/YoungZhang08/jsPractice/blob/master/linkList.js)
 #### 6. [嵌套实现trim](https://github.com/YoungZhang08/jsPractice/blob/master/doubleTrim.js)
-#### 5. [手动实现sort](https://github.com/YoungZhang08/jsPractice/blob/master/originSort.js)
-#### 5. [js实现快排](https://github.com/YoungZhang08/jsPractice/blob/master/quickSort.js)
+#### 7. [手动实现sort](https://github.com/YoungZhang08/jsPractice/blob/master/originSort.js)
+#### 8. [js实现快排](https://github.com/YoungZhang08/jsPractice/blob/master/quickSort.js)
+#### 9. [将原生Ajax封装成Promise](https://github.com/YoungZhang08/jsPractice/blob/master/promiseAjax.js)
