@@ -16,7 +16,7 @@ function myAjax(obj) {
                 var json = JSON.parse(xhr.responseText);
                 resolve(json);
             } else {
-                reject('error:' + xhr.status);
+                reject('error response:' + xhr.status);
             }
         }
     });
