@@ -8,3 +8,5 @@
 #### 7. [手动实现sort](https://github.com/YoungZhang08/jsPractice/blob/master/originSort.js)
 #### 8. [js实现快排](https://github.com/YoungZhang08/jsPractice/blob/master/quickSort.js)
 #### 9. [将原生Ajax封装成Promise](https://github.com/YoungZhang08/jsPractice/blob/master/promiseAjax.js)
+#### 10. [原生js实现call方法](https://github.com/YoungZhang08/jsPractice/blob/master/myCall.js)
+#### 11. [原生js实现apply方法](https://github.com/YoungZhang08/jsPractice/blob/master/myApply.js)
