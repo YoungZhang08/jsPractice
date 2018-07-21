@@ -10,3 +10,4 @@
 #### 9. [将原生Ajax封装成Promise](https://github.com/YoungZhang08/jsPractice/blob/master/promiseAjax.js)
 #### 10. [原生js实现call方法](https://github.com/YoungZhang08/jsPractice/blob/master/myCall.js)
 #### 11. [原生js实现apply方法](https://github.com/YoungZhang08/jsPractice/blob/master/myApply.js)
+#### 12. [原生js实现bind方法](https://github.com/YoungZhang08/jsPractice/blob/master/myBind.js)
