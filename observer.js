@@ -2,14 +2,14 @@ function defineReactive(data, key, val) {
   Object.defineProperty(data, key, {
     enumerable: true,
     configurable: true,
-      get: function defineGet() {
-        console.log(`get key: ${key} val: ${val}`);
-        return val;
-      },
-      set: function defineSet(newVal) {
-        console.log(`set key: ${key} val: ${newVal}`);
-        val = newVal;
-      }
+    get: function defineGet() {
+      console.log(`get key: ${key} val: ${val}`);
+      return val;
+    },
+    set: function defineSet(newVal) {
+      console.log(`set key: ${key} val: ${newVal}`);
+      val = newVal;
+    }
   })
 }
 

@@ -11,3 +11,4 @@
 #### 10. [原生js实现call方法](https://github.com/YoungZhang08/jsPractice/blob/master/myCall.js)
 #### 11. [原生js实现apply方法](https://github.com/YoungZhang08/jsPractice/blob/master/myApply.js)
 #### 12. [原生js实现bind方法](https://github.com/YoungZhang08/jsPractice/blob/master/myBind.js)
+#### 13. [CVTE 2018秋招提前批二面手撕题](https://github.com/YoungZhang08/jsPractice/blob/master/cvteProxy.js)
