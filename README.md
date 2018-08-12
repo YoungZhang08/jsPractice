@@ -14,3 +14,5 @@
 #### 13. [CVTE 2018秋招提前批二面手撕题](https://github.com/YoungZhang08/jsPractice/blob/master/cvteProxy.js)
 #### 14. [合并一升序数组和一降序数组为一个不降序的数组](https://github.com/YoungZhang08/jsPractice/blob/master/mergeArray.js)
 #### 15. [京东提前批一面：查找数组中出现次数最多的元素并返回](https://github.com/YoungZhang08/jsPractice/blob/master/searchNumMax.js)
+#### 16. [网易笔试：拼接URL和参数](https://github.com/YoungZhang08/jsPractice/blob/master/getParams.js)
+#### 17. [网易笔试：添加或者删除queryString](https://github.com/YoungZhang08/jsPractice/blob/master/queryString.js)
