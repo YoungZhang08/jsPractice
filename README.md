@@ -17,3 +17,5 @@
 #### 16. [网易笔试：拼接URL和参数](https://github.com/YoungZhang08/jsPractice/blob/master/getParams.js)
 #### 17. [网易笔试：添加或者删除queryString](https://github.com/YoungZhang08/jsPractice/blob/master/queryString.js)
 #### 18. [搜狗问问一面：生成一个n个数的数组，数组元素不重复且随机产生](https://github.com/YoungZhang08/jsPractice/blob/master/randomArr.js)
+#### 19. [腾讯sng秋招一面手撕：元素拖拽（考虑边界）](https://github.com/YoungZhang08/jsPractice/blob/master/dragDiv)
+#### 20. [腾讯sng秋招一面手撕：大数相加](https://github.com/YoungZhang08/jsPractice/blob/master/addBigNum.js)
