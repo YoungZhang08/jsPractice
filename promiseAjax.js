@@ -5,10 +5,10 @@
 function myAjax(obj) {
     return new Promise(function(resolve, reject) {
         var xhr = new XMLHttpRequest();
-        xhr.open(type, url, true);
-        if(type == 'get') {
+        xhr.open(obj.type, obj.url, true);
+        if(obj.type == 'get') {
             xhr.send(null);
-        } else if(type == 'post') {
+        } else if(obj.type == 'post') {
             xhr.send(data);
         }
         xhr.onreadystatechange = function() {
