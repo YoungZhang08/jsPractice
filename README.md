@@ -21,4 +21,4 @@
 #### 20. [腾讯sng秋招一面手撕：大数相加](https://github.com/YoungZhang08/jsPractice/blob/master/addBigNum.js)
 #### 21. [原生JS实现完美的检测数据类型方案](https://github.com/YoungZhang08/jsPractice/blob/master/checkType.js)
 #### 22. [原生JS实现防抖函数](https://github.com/YoungZhang08/jsPractice/blob/master/debounced)
-#### 22. [原生JS实现节流函数](https://github.com/YoungZhang08/jsPractice/blob/master/throttle)
+#### 23. [原生JS实现节流函数](https://github.com/YoungZhang08/jsPractice/blob/master/throttle)
