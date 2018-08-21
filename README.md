@@ -19,3 +19,4 @@
 #### 18. [搜狗问问一面：生成一个n个数的数组，数组元素不重复且随机产生](https://github.com/YoungZhang08/jsPractice/blob/master/randomArr.js)
 #### 19. [腾讯sng秋招一面手撕：元素拖拽（考虑边界）](https://github.com/YoungZhang08/jsPractice/blob/master/dragDiv)
 #### 20. [腾讯sng秋招一面手撕：大数相加](https://github.com/YoungZhang08/jsPractice/blob/master/addBigNum.js)
+#### 21. [原生JS实现完美的检测数据类型方案] (https://github.com/YoungZhang08/jsPractice/blob/master/checkType.js)
