@@ -22,3 +22,4 @@
 #### 21. [原生JS实现完美的检测数据类型方案](https://github.com/YoungZhang08/jsPractice/blob/master/checkType.js)
 #### 22. [原生JS实现防抖函数](https://github.com/YoungZhang08/jsPractice/blob/master/debounced)
 #### 23. [原生JS实现节流函数](https://github.com/YoungZhang08/jsPractice/blob/master/throttle)
+#### 24. [原生JS实现Promise](https://github.com/YoungZhang08/jsPractice/blob/master/myPromise.js)
