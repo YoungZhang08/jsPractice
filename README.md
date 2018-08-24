@@ -23,3 +23,4 @@
 #### 22. [原生JS实现防抖函数](https://github.com/YoungZhang08/jsPractice/blob/master/debounced)
 #### 23. [原生JS实现节流函数](https://github.com/YoungZhang08/jsPractice/blob/master/throttle)
 #### 24. [原生JS实现Promise](https://github.com/YoungZhang08/jsPractice/blob/master/myPromise.js)
+#### 25. [搜狗网页搜索一面：计算两个IP地址是否在同一子网内](https://github.com/YoungZhang08/jsPractice/blob/master/checkNetSegment.js)
