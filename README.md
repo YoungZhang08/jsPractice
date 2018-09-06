@@ -25,3 +25,4 @@
 #### 24. [原生JS实现Promise](https://github.com/YoungZhang08/jsPractice/blob/master/myPromise.js)
 #### 25. [搜狗网页搜索一面：计算两个IP地址是否在同一子网内](https://github.com/YoungZhang08/jsPractice/blob/master/checkNetSegment.js)
 #### 26. [函数柯里化](https://github.com/YoungZhang08/jsPractice/blob/master/curry.js)
+#### 27. [阿里秋招笔试题：扁平化数组/对象](https://github.com/YoungZhang08/jsPractice/blob/master/flatter.js)
