@@ -26,4 +26,5 @@
 #### 25. [搜狗网页搜索一面：计算两个IP地址是否在同一子网内](https://github.com/YoungZhang08/jsPractice/blob/master/checkNetSegment.js)
 #### 26. [函数柯里化](https://github.com/YoungZhang08/jsPractice/blob/master/curry.js)
 #### 27. [阿里秋招笔试题：扁平化数组/对象](https://github.com/YoungZhang08/jsPractice/blob/master/flatter.js)
-#### 27. [通过遍历器实现指针结构](https://github.com/YoungZhang08/jsPractice/blob/master/nodeStructor.js)
+#### 28. [通过遍历器实现指针结构](https://github.com/YoungZhang08/jsPractice/blob/master/nodeStructor.js)
+#### 29. [Promise小练习](https://github.com/YoungZhang08/jsPractice/blob/master/promiseTask.js)
