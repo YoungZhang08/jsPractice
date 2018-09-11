@@ -28,3 +28,4 @@
 #### 27. [阿里秋招笔试题：扁平化数组/对象](https://github.com/YoungZhang08/jsPractice/blob/master/flatter.js)
 #### 28. [通过遍历器实现指针结构](https://github.com/YoungZhang08/jsPractice/blob/master/nodeStructor.js)
 #### 29. [Promise小练习](https://github.com/YoungZhang08/jsPractice/blob/master/promiseTask.js)
+#### 30. [猿辅导现场面笔试题：添加和删除类名](https://github.com/YoungZhang08/jsPractice/blob/master/addDelClassName)

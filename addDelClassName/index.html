@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a class="container box list"></a>
+    <script>
+        function addClassName(node, cls) {
+            
+            return node.className + ' ' + cls;
+            // return node.classList.add(cls); // 原生的 add 方法也可以
+        }
+
+        function removleClassName(node, cls) {
+            var nodeClassLists = node.classList;
+            var res = [];
+
+            for(let i = 0, len = nodeClassLists.length; i < len; i++) {
+                if(nodeClassLists[i] !== cls) {
+                    res.push(nodeClassLists[i]);
+                }
+            }
+
+            return res.join(' ');
+            // return node.classList.remove(cls); // 原生的 remove 方法也可以
+        }
+
+        const a = document.getElementsByTagName('a')[0];
+        addClassName(a, 'bbb');
+        removleClassName(a, 'box');
+        removleClassName(a, 'bbb');
+    </script>
+</body>
+</html>
