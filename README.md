@@ -29,3 +29,4 @@
 #### 28. [通过遍历器实现指针结构](https://github.com/YoungZhang08/jsPractice/blob/master/nodeStructor.js)
 #### 29. [Promise小练习](https://github.com/YoungZhang08/jsPractice/blob/master/promiseTask.js)
 #### 30. [猿辅导现场面笔试题：添加和删除类名](https://github.com/YoungZhang08/jsPractice/blob/master/addDelClassName)
+#### 31. [百度笔试题：类似搜索引擎的功能](https://github.com/YoungZhang08/jsPractice/blob/master/searchEngine)

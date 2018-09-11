@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .search{
+            position: relative;
+        }
+        .js-input{
+            width: 450px;
+            height: 22px;
+            line-height: 22px;
+            font-size: 16px;
+            padding: 8px;
+            border: 1px solid #cccccc;
+            outline: none;
+        }
+        .js-suggest{
+            width: 466px;
+            font-size: 14px;
+            border: 1px solid #cccccc;
+            background: #ffffff;
+            position: absolute;
+            left: 0;
+            top: 39px;
+        }
+        .js-suggest.hide{
+            display: none;
+        }
+        .js-suggest ul{
+            display: block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .js-suggest ul li{
+            color: #000;
+            font: 14px arial;
+            line-height: 25px;
+            padding: 0 8px;
+            position: relative;
+            cursor: default;
+        }
+        .js-suggest ul li:hover{
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search">
+            <div><input type="text" class="js-input" value="的"></div>
+            <div class="js-suggest"><ul>
+                    <li>根据输入框的值</li>
+                    <li>从给定字符串数组中筛选出匹配的数据，依次显示在li节点中</li>
+                    <li>如果没有匹配的数据，请移除所有li节点，并隐藏.js-suggest节点</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function suggest(items) {
+                var jsSuggest = document.getElementsByClassName('js-suggest')[0];
+                var inputVal = document.getElementsByTagName('input')[0].value.trim();
+                console.log(jsSuggest.children[0], jsSuggest.firstChild)
+                jsSuggest.removeChild(jsSuggest.children[0]);
+                console.log(inputVal)
+                if(inputVal == '') {
+                    return;
+                } else {
+                    inputVla = inputVal.split('').join('.*?');
+                    var regInputVal = new RegExp(inputVla + '.*?');
+                    // var regInputVal = /北.*?大.*?/;
+                    var res = [];
+                    console.log(regInputVal)
+                    items.forEach(function(item, index) {
+                        if(regInputVal.test(item)) {
+                            res.push(item);
+                        }
+                    });
+                    console.log(res)
+                    if(res.length) {
+                        jsSuggest.classList.remove('hide');
+                        var myUl = document.createElement('ul');
+                        for(var i = 0; i < res.length; i++) {
+                            var li = document.createElement('li');
+                            li.innerHTML = res[i];
+                            myUl.appendChild(li);
+                        }
+                        jsSuggest.appendChild(myUl);
+                    } else {
+                        jsSuggest.classList.add('hide');
+                    }
+                }
+            }
+            document.getElementsByTagName('input')[0].onchange = function() {
+                suggest(["大北京", "北京大学", "北大"]);
+            }
+        </script>
+</body>
+</html>
