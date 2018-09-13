@@ -30,3 +30,5 @@
 #### 29. [Promise小练习](https://github.com/YoungZhang08/jsPractice/blob/master/promiseTask.js)
 #### 30. [猿辅导现场面笔试题：添加和删除类名](https://github.com/YoungZhang08/jsPractice/blob/master/addDelClassName)
 #### 31. [百度笔试题：类似搜索引擎的功能](https://github.com/YoungZhang08/jsPractice/blob/master/searchEngine)
+#### 32. [迅雷笔试题：班级信息排序](https://github.com/YoungZhang08/jsPractice/blob/master/classInfoSort.js)
+#### 33. [搜狐笔试题：版本号的字符串比较](https://github.com/YoungZhang08/jsPractice/blob/master/compareStr.c)
